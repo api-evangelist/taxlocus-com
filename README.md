@@ -1,4 +1,4 @@
-# taxlocus-com
+# TaxLocus
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,113 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-taxlocus-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://taxlocus.com/
+TaxLocus provides an open, citation‑backed US sales‑tax dataset and a REST API that lets developers lookup rates, economic‑nexus status, taxability, and filing calendars across all 46 US jurisdictions. The service unifies public Department of Revenue data, updates weekly, and offers free tier access with transparent pricing for higher volumes. It aims to help online sellers, SaaS businesses, and accountants comply with state tax laws without costly proprietary tools.
+
+**Areas:** sales tax · API · nexus tracking · integration · open data
+
+## TaxLocus on APIs.io
+
+Everything profiled for TaxLocus is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/taxlocus-com/](https://apis.io/providers/taxlocus-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (9)
+
+- [TaxLocus Change history API](https://apis.io/apis/taxlocus-com/taxlocus-com-change-history-api/) — Every change to TaxLocus's rates and taxability rules, from append-only logs kept at least seven years.
+- [TaxLocus Compliance API](https://apis.io/apis/taxlocus-com/taxlocus-com-compliance-api/) — Filing calendars and taxability.
+- [TaxLocus Lookup exceptions API](https://apis.io/apis/taxlocus-com/taxlocus-com-lookup-exceptions-api/) — Lookups TaxLocus could not fully place (the `exception_id` on a lookup or cart answer): what the research found about the address and the rate.
+- [TaxLocus Nexus API](https://apis.io/apis/taxlocus-com/taxlocus-com-nexus-api/) — Economic-nexus checks and tracking.
+- [TaxLocus Public API](https://apis.io/apis/taxlocus-com/taxlocus-com-public-api/) — Unauthenticated, IP-rate-limited.
+- [TaxLocus Rates API](https://apis.io/apis/taxlocus-com/taxlocus-com-rates-api/) — Rate lookup and cart tax calculation.
+- [TaxLocus System API](https://apis.io/apis/taxlocus-com/taxlocus-com-system-api/) — Health and service metadata.
+- [TaxLocus Webhooks API](https://apis.io/apis/taxlocus-com/taxlocus-com-webhooks-api/) — Outbound webhook registration.
+- [TaxLocus Workpapers API](https://apis.io/apis/taxlocus-com/taxlocus-com-workpapers-api/) — Stored requests and responses for audit: fetch what TaxLocus answered, check it against the hashes written at the time, and replay it against today's corpus.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [TaxLocus Agentic Access](https://apis.io/agentic-access/taxlocus-com/taxlocus-com-agentic-access/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [TaxLocus API Rules](https://apis.io/rules/taxlocus-com/taxlocus-com-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [TaxLocus Authentication](https://apis.io/security/taxlocus-com/taxlocus-com-authentication/)
+- [TaxLocus Domain Security](https://apis.io/security/taxlocus-com/taxlocus-com-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://taxlocus.com/)
+- [API reference](https://api.taxlocus.com/docs)
+- [Support](https://taxlocus.com/kb)
+- [Changelog](https://taxlocus.com/release-notes)
+- [Terms of service](https://taxlocus.com/terms)
+- [Privacy policy](https://taxlocus.com/privacy)
+- [Status](https://taxlocus.com/status)
+
+## API Evangelist rating
+
+**Kin Score 47.8** — developing · rubric 0.27.0 · scored 2026-11-25
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 45.2 |
+| Contract governance | 79.1 |
+| Operational transparency | 36.8 |
+| Developer ergonomics | 23.8 |
+| Access clarity | 42.1 |
+
+**Agent readiness 47.1** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | verified |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | verified |
+| Rate Limit Signal | verified |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 29.4** — Government & Public Sector
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/taxlocus-com/](https://apis.io/providers/taxlocus-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for TaxLocus: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/taxlocus-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
